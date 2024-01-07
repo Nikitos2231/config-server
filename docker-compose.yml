@@ -1,0 +1,8 @@
+version: "3.3"
+services:
+
+  eureka:
+    build:
+      dockerfile: Dockerfile
+    ports:
+      - "48001:48001"
