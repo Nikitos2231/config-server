@@ -42,3 +42,4 @@ jobs:
             docker rm -f config-server-container || true
             docker pull sythilearn/config-server
             docker run -d --name config-server-container -p 48001:48001 sythilearn/config-server
+
